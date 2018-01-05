@@ -5,7 +5,7 @@
     "email": "ylhuang0423@gmail.com"
   },
   "scripts": {
-    "start": "nodemon --exec ts-node src/index.ts",
+    "start": "nodemon --exec 'ts-node --type-check' src/index.ts",
     "build": "tsc"
   },
   "dependencies": {
