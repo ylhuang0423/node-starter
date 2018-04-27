@@ -6,7 +6,8 @@
   },
   "scripts": {
     "start": "nodemon --exec 'ts-node --type-check' src/index.ts",
-    "build": "tsc"
+    "build": "tsc",
+    "watch": "tsc --watch"
   },
   "dependencies": {
     "immutable": "^4.0.0-rc.9"
